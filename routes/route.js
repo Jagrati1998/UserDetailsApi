@@ -44,7 +44,7 @@ router.post('/users', (req, res, next) => {
             res.send(doc)
         }
         else {
-            console.log('Error in save' + JSON.stringify(err, undefined, 2));
+            console.log('Error in save Data' + JSON.stringify(err, undefined, 2));
            
         }
     });
