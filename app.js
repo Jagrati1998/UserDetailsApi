@@ -8,7 +8,7 @@ var path = require('path');
 
 var app = express();
 const route = require('./routes/route.js');
-mongoose.connect("mongodb+srv://JagratiMishra:Jagrati@1998@jmcluster-kdhzk.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
+//mongoose.connect("mongodb+srv://JagratiMishra:Jagrati@1998@jmcluster-kdhzk.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
 mongoose.connection.on('connected', () => {
   console.log("Connected At database");
 });
